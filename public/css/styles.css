@@ -1,0 +1,51 @@
+body {
+  background-color: #f0f0f0; /* Light gray background */
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  margin-bottom: 30px;
+  color: #333; /* Dark gray for the heading */
+}
+
+.text-center {
+  text-align: center;
+}
+
+.w-75 {
+  width: 75%;
+}
+
+.card {
+  background-color: #ffffff; /* White background for card */
+  border: 1px solid #ddd; /* Light gray border */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.card-body {
+  padding: 2rem;
+}
+
+.btn-dark {
+  background-color: #007bff; /* Blue button background */
+  color: #ffffff; /* White text */
+  border: none;
+}
+
+.btn-dark:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.form-control {
+  border-radius: 4px; /* Rounded input corners */
+  border: 1px solid #ced4da; /* Light gray border */
+}
+
+.form-group label {
+  color: #495057; /* Darker gray for labels */
+}
